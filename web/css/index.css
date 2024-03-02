@@ -86,10 +86,6 @@
   #footer a{
     color: white;
   }
-
-  #footer a:hover{
-    color: red;
-  }
   
   ::-webkit-scrollbar {
     width: 20px;
