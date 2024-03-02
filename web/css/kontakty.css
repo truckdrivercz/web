@@ -1,128 +1,168 @@
-*{  
-margin: 0;
-padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
 
-  body, html{
-    width: 100%;
-    height: 100%;
-  }
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
 
-.nadpis{
+.nadpis {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: red;
+  color: #11101b;
   position: relative;
   top: 95vh;
-  }
+  font-size: 50px;
+}
 
-  .kontakty{
-    display: flex;
-    align-items: center;
+.kontakty {
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
   position: relative;
   top: 0;
-  }
+  padding-bottom: 50px;
+}
 
-  .foto{
-    border: solid black 2px;
-  }
+.foto {
+  border: solid black 2px;
+}
 
-  .lucian{
-    font-weight: bold;
-    position: relative;
-    top:100vh;
-  }
+.lucian {
+  font-weight: bold;
+  position: relative;
+  top: 100vh;
+}
 
-  .medvidek{
-    font-weight: bold;
-    position: relative;
-    top: 100vh;
-  }
+.medvidek {
+  font-weight: bold;
+  position: relative;
+  top: 100vh;
+}
 
-  .eda{
-    font-weight: bold;
-    position: relative;
-    top: 100vh;
-  }
+.eda {
+  font-weight: bold;
+  position: relative;
+  top: 100vh;
+}
 
-  .vasa{
-    font-weight: bold;
-    position: relative;
-    top: 100vh;
-  }
+.vasa {
+  font-weight: bold;
+  position: relative;
+  top: 100vh;
+}
 
-  .alan{
-    font-weight: bold;
-    position: relative;
-    top: 100vh;
-  }
+.alan {
+  font-weight: bold;
+  position: relative;
+  top: 100vh;
+}
 
-.kontakty img{
+.kontakty img {
   width: 150px;
 }
 
-footer{
+footer {
   margin-top: 100vh;
-  background-color: #2d2e33;
-  padding: 20px;
-}
-
-.footer-col{
+  background-color: #11101b;
+  color: white;
+  padding-top: 30px;
+  width: 100%;
+  height: 100px;
   text-align: center;
+  justify-content: center;
+  place-items: center;
+}
+
+#footer a {
   color: white;
 }
 
-p, a{
-  color: white;
+::-webkit-scrollbar {
+  width: 20px;
 }
 
-::selection{
+::-webkit-scrollbar-track {
+  box-shadow: inset 100px 100px 100px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #11101b;
+}
+::selection {
   background-color: green;
   color: white;
 }
-.medvidek, .lucian, .eda, .vasa, .alan{
+.medvidek,
+.lucian,
+.eda,
+.vasa,
+.alan {
   padding-bottom: 10px;
 }
-@media screen and (max-width:1200px){
-  .kontakty{
-  flex-direction: column;
-  z-index: -1;
-}
+@media screen and (max-width: 1200px) {
+  .kontakty {
+    flex-direction: column;
+    z-index: -1;
+  }
 
-  .nadpis{
+  .nadpis {
     position: relative;
     top: 250px;
   }
 
-  .medvidek{
+  .medvidek {
     position: relative;
     top: 280px;
     width: 150px;
-}
+  }
 
-.lucian{
-  position: relative;
-  top: 340px;
-  width: 150px;
-}
-.eda{
-  position: relative;
-  top: 400px;
-  
-}
+  .lucian {
+    position: relative;
+    top: 340px;
+    width: 150px;
+  }
+  .eda {
+    position: relative;
+    top: 400px;
+  }
 
-.vasa{
-  position: relative;
-  top: 460px;
+  .vasa {
+    position: relative;
+    top: 460px;
+  }
+  .alan {
+    position: relative;
+    top: 520px;
+    padding-bottom: 10px;
+  }
+  footer {
+    margin-top: 520px;
+  }
 }
-.alan{
-  position: relative;
-  top: 520px;
-  padding-bottom: 10px;
+@media screen and (max-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
+  }
 }
-footer{
-  margin-top: 520px;
-}
+@media screen and (min-width: 576px) {
+  @media screen and (max-width: 1200px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
 }

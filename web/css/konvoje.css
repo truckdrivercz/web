@@ -1,45 +1,66 @@
-*{
-  margin: 0;
+* {
+  font-family: sans-serif;
   padding: 0;
-  }
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
 
-  body, html{
-    width: 100%;
-    height: 100%;
-  }
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  margin-top: 95vh;
+  display: flex;
+}
 
-::selection{
-  background-color: green;
+#info1,
+#info2,
+#info3 {
+  height: 550px;
+  flex-basis: 30%;
+  margin: 50px;
+  font-size: 15px;
+  background-color: #11101b;
   color: white;
+  border-radius: 30px;
 }
 
-.nadpis{
-  position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 95vh;
+#info1 h1,
+#info2 h1,
+#info3 h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.konvoj_1{
-  position: sticky;
-    display: flex;
-    text-align: start;
-    justify-content: center;
-    position: relative;
-    top: 100vh;
-    padding-bottom: 10px;
+#info1 p,
+#info2 p,
+#info3 p {
+  padding-left: 30px;
+  font-size: 20px;
 }
 
-.konvoj_1 ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
+footer {
+  margin-top: 100px;
+  background-color: #11101b;
+  color: white;
+  padding-top: 30px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
 }
-
+#footer a {
+  color: white;
+  background-color: unset;
+}
+.logo a:hover{
+  background-color: unset;
+}
 .zona, .info, .rezervace{
   color: black;
   background-color: white;
@@ -52,92 +73,64 @@ a:hover{
   background-color: lime;
 }
 
-.logo a:hover{
-  background-color: unset;
+
+::-webkit-scrollbar {
+  width: 20px;
 }
 
-.nadpis_1{
-    display: flex;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 105vh;
+::-webkit-scrollbar-track {
+  box-shadow: inset 100px 100px 100px white;
+  border-radius: 10px;
 }
 
-.konvoj_2{
-  position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 110vh;
-    padding-bottom: 10px;
+::-webkit-scrollbar-thumb {
+  background: #11101b;
 }
 
-.konvoj_2 ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
+@media screen and (max-width: 576px) {
+  #main {
+    display: block;
+    margin-top: 250px;
+  }
+  #info1, #info2, #info3 {
+    border-radius: 5px;
+  }
 }
 
-footer{
-  margin-top: 110vh;
-  background-color: #2d2e33;
-  padding: 20px;
-}
+@media screen and (min-width: 576px) {
+  @media screen and (max-width: 1200px) {
+    #main {
+      display: block;
+      margin-top: 250px;
+    }
+    #info1,
+    #info2,
+    #info3 {
+      border-radius: 0px;
+      
+    }
+    #info1 p,
+    #info2 p,
+    #info3 p {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-left: 30px;
+      padding-right: 40px;
+    }
 
-.footer-col{
-  text-align: center;
-  color: white;
-}
-
-.tb-odkaz:hover{
-  color: unset;
-  background-color: unset;
-}
-
-p, a{
-  color: white;
-}
-footer:hover{
-  background-color: none;
-}
-
-@media screen and (max-width:1200px) {
-    .nadpis{
-      position: relative;
+    #info1,
+    #info2,
+    #info3 {
+      height: auto;
+      margin-bottom: 50px;
+      border-radius: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
       text-align: center;
-      top: 250px;
-  }
-
-    .konvoj_1{
-        position: relative;
-        top: 280px;
     }
-
-        .nadpis_1{
-      position: relative;
-      text-align: center;
-      top: 315px;
-  }
-
-    .konvoj_2{
-        position: relative;
-        top: 340px;
+    ::-webkit-scrollbar {
+      width: 0px;
     }
-
-    footer{
-      margin-top: 340px;
-    }
-}
-@media  screen and (max-width: 1000px) {
-  .konvoj_1{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .konvoj_2{
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
