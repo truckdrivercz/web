@@ -105,8 +105,8 @@
   
   @media screen and (max-width: 576px) {
     #flexWrap {
-        margin-top: 250px;
         display: block;
+        margin-top: 250px;
       }
   
     #informations,
@@ -114,6 +114,7 @@
     #achievements,
     #requirements {
       border-radius: 0px;
+      height: auto;
     }
 
     #firstWrap p,
@@ -155,7 +156,7 @@
           #offers,
           #achievements,
           #requirements {
-            width: auto;
+            
             border-radius: 0px;
           }
           #firstWrap p,
