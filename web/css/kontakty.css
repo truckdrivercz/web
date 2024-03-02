@@ -1,0 +1,128 @@
+*{  
+margin: 0;
+padding: 0;
+  }
+
+  body, html{
+    width: 100%;
+    height: 100%;
+  }
+
+.nadpis{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: red;
+  position: relative;
+  top: 95vh;
+  }
+
+  .kontakty{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 0;
+  }
+
+  .foto{
+    border: solid black 2px;
+  }
+
+  .lucian{
+    font-weight: bold;
+    position: relative;
+    top:100vh;
+  }
+
+  .medvidek{
+    font-weight: bold;
+    position: relative;
+    top: 100vh;
+  }
+
+  .eda{
+    font-weight: bold;
+    position: relative;
+    top: 100vh;
+  }
+
+  .vasa{
+    font-weight: bold;
+    position: relative;
+    top: 100vh;
+  }
+
+  .alan{
+    font-weight: bold;
+    position: relative;
+    top: 100vh;
+  }
+
+.kontakty img{
+  width: 150px;
+}
+
+footer{
+  margin-top: 100vh;
+  background-color: #2d2e33;
+  padding: 20px;
+}
+
+.footer-col{
+  text-align: center;
+  color: white;
+}
+
+p, a{
+  color: white;
+}
+
+::selection{
+  background-color: green;
+  color: white;
+}
+.medvidek, .lucian, .eda, .vasa, .alan{
+  padding-bottom: 10px;
+}
+@media screen and (max-width:1200px){
+  .kontakty{
+  flex-direction: column;
+  z-index: -1;
+}
+
+  .nadpis{
+    position: relative;
+    top: 250px;
+  }
+
+  .medvidek{
+    position: relative;
+    top: 280px;
+    width: 150px;
+}
+
+.lucian{
+  position: relative;
+  top: 340px;
+  width: 150px;
+}
+.eda{
+  position: relative;
+  top: 400px;
+  
+}
+
+.vasa{
+  position: relative;
+  top: 460px;
+}
+.alan{
+  position: relative;
+  top: 520px;
+  padding-bottom: 10px;
+}
+footer{
+  margin-top: 520px;
+}
+}

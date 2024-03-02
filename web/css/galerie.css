@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nadpis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color: red;
+}
+
+.konvoje img{
+    width: 350px;
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.konvoje{
+    position: relative;
+    top: 60px;
+}
+
+.obsah{
+    text-align: center;
+}
+
+footer{
+    margin-top: 60px;
+    background-color: #2d2e33;
+    padding: 20px;
+}
+
+p, a{
+    color: white;
+}
+
+.footer-col{
+    text-align: center;
+    color: white;
+}
+
+::selection{
+    background-color: green;
+    color: white;
+}

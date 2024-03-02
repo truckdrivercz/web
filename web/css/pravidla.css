@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    body, html{
+      width: 100%;
+      height: 100%;
+    }
+
+
+  .trucksbook, .discord, .tmp{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .pravidla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100vh;
+    z-index: -999999;
+}
+
+.pravidla ul{
+    background: #85c1ee;
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.pravidla_nadpis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    position: relative;
+    top: 95vh;
+}
+
+.pravidla_konvoje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 110vh;
+    padding-bottom: 10px;
+}
+
+.pravidla_konvoje ul{
+    background: #85c1ee;
+    padding: 10px 24px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.pravidla_konvoje_nadpis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 105vh;
+    color: red;
+}
+
+footer{
+    margin-top: 110vh;
+    background-color: #2d2e33;
+    padding: 20px;
+}
+
+.footer-col{
+    text-align: center;
+    color: white;
+}
+
+p, a{
+    color: white;
+}
+
+@media screen and (max-width:1200px){
+    .pravidla{
+        position: relative;
+        top: 280px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .pravidla_nadpis{
+        position: relative;
+        top: 250px;
+    }
+
+    .pravidla_konvoje_nadpis{
+        position: relative;
+        top: 310px;
+    }
+    
+    .pravidla_konvoje{
+        position: relative;
+        top: 340px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer{
+        margin-top: 340px;
+        background-color: #2d2e33;
+        padding: 20px;
+    }
+
+}

@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    z-index: 999999;
+}
+
+i{
+    display: grid;
+    font-size: 50px;
+    cursor: pointer;
+    color: yellow;
+}
+
+body{
+background: #fefefe;
+}
+
+.tb{
+    filter: invert(0);
+}
+
+.tmp{
+    filter: invert(0);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #11101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    top: 0;
+}
+
+ .tym {
+    display: inline-flex;
+    padding: 0;
+    
+
+}
+.odkaz{
+    border: white 1px solid;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+header .tym:hover li{
+    border-width: 0;
+    transition: 0s;
+}
+
+header img{
+    height: 25px;
+    filter: invert(1);
+}
+
+.logo{
+font-size: 28px;
+font-weight: bold;
+color: #fefefe;
+}
+
+.logo a{
+    color: #fefefe;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 0px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    border-radius: 50px;
+    background-color: rgb(26, 88, 204);
+}
+
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+    border-radius: 50px;
+}
+
+
+
+::selection{
+    background-color: green;
+    color: white;
+}
+@media screen and (max-width: 1800px){
+    header{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    header{
+        padding: 0 30px;
+    } 
+}
+
+@media screen and (max-width:1520px) {
+    .tym{
+        display: grid;
+    }
+    .odkaz{
+        border: solid white;
+        border-left: 0;
+        border-top: white 1px solid;
+        border-bottom: 0;
+        border-right: 0;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0px;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #11101b;
+        transition: 0.5s;
+        overflow: hidden;
+        z-index: 9999999999;
+    }
+
+  .nav-bar.active{
+    height: 750px;
+  }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+    
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+    }
+
+}
+@media screen and (max-width:600px) {
+    i{
+        font-size: 30px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+}
