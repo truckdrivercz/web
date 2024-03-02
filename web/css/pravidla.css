@@ -35,7 +35,8 @@
   
   #rules a,
   #rules2 a {
-    color: white;
+    color: red;
+    text-decoration: underline;
   }
 
   #rules p,
