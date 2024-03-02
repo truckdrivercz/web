@@ -97,13 +97,6 @@ color: #fefefe;
     background: #fefefe;
     border-radius: 50px;
 }
-
-
-
-::selection{
-    background-color: green;
-    color: white;
-}
 @media screen and (max-width: 1800px){
     header{
         padding: 0 40px;
