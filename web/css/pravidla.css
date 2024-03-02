@@ -1,113 +1,165 @@
-*{
-    margin: 0;
+* {
+    font-family: sans-serif;
     padding: 0;
-    }
-
-    body, html{
-      width: 100%;
-      height: 100%;
-    }
-
-
-  .trucksbook, .discord, .tmp{
-    color: black;
-    text-decoration: underline;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 30px;
     font-weight: bold;
   }
-
-  .pravidla{
+  .secondTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #wrap {
+    margin-top: 95vh;
+    height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 100vh;
-    z-index: -999999;
-}
+  }
+  
+  #rules,
+  #rules2 {
+    flex-basis: 50%;
+    padding: 30px;
+    margin: 30px;
+  }
+  
+  #rules a,
+  #rules2 a {
+    color: white;
+  }
 
-.pravidla ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.pravidla_nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 95vh;
-}
-
-.pravidla_konvoje{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 110vh;
-    padding-bottom: 10px;
-}
-
-.pravidla_konvoje ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.pravidla_konvoje_nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 105vh;
-    color: red;
-}
-
-footer{
-    margin-top: 110vh;
-    background-color: #2d2e33;
-    padding: 20px;
-}
-
-.footer-col{
+  #rules p,
+  #rules2 p {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 200px;
+  }
+  
+  #rules .title,
+  #rules2 .title {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+  
+  #rules .secondTitle,
+  #rules2 .secondTitle {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+  
+  #rules,
+  #rules2 {
+    height: 350px;
+    font-size: 16px;
+    background-color: #11101b;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  footer {
+    margin-top: 100px;
+    background-color: #11101b;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
     text-align: center;
-    color: white;
-}
-
-p, a{
-    color: white;
-}
-
-@media screen and (max-width:1200px){
-    .pravidla{
-        position: relative;
-        top: 280px;
-        padding-left: 10px;
-        padding-right: 10px;
+    justify-content: center;
+    place-items: center;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 100px 100px 100px white;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #11101b;
+  }
+  
+  @media screen and (max-width: 576px) {
+    #wrap {
+      display: block;
+      margin-top: 250px;
     }
+    #rules p,
+    #rules2 p {
+      font-size: 17.5px;
+      padding-top: 15px;
+      padding-left: 30px;
+      padding-right: 0px;
+    }
+    #rules,
+    #rules2 {
+      margin-bottom: 50px;
+    }
+  
+    #rules,
+    #rules2 {
+      border-radius: 0px;
+      height: 500px;
+      text-align: center;
+    }
+  
 
-    .pravidla_nadpis{
-        position: relative;
-        top: 250px;
+    ::-webkit-scrollbar {
+      width: 0px;
     }
+    #footerTitle {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 576px) {
+    @media screen and (max-width: 1200px) {
+      #wrap {
+        display: block;
+        margin-top: 250px;
+      }
+      #rules,
+      #rules2 {
+        border-radius: 0px;
+        text-align: center;
+      }
+      #rules p,
+      #rules2 p {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 40px;
+      }
+  
+      #rules,
+      #rules2 {
 
-    .pravidla_konvoje_nadpis{
-        position: relative;
-        top: 310px;
+        margin-bottom: 50px;
+        border-radius: 0px;
+      }
+      #footerTitle {
+        font-size: 22px;
+        text-align: center;
+      }
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
     }
-    
-    .pravidla_konvoje{
-        position: relative;
-        top: 340px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    footer{
-        margin-top: 340px;
-        background-color: #2d2e33;
-        padding: 20px;
-    }
-
-}
+  }
