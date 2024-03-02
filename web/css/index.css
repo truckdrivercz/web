@@ -1,216 +1,183 @@
-*{
-    margin-top: 0;
+* {
+    font-family: sans-serif;
     padding: 0;
-    }
-
-.text{
-    position: sticky;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .secondTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #flexWrap {
+    margin-top: 95vh;
+    height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 95vh;
-    
-    
-}
-
-.text ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.nabidka_nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 100vh;
-}
-
-.nabidka_konvoje{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 105vh;
-}
-
-.nabidka_kolektiv{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: relative;
-    top: 110vh;
-}
-
-.nabidka_konvoje ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.nabidka_kolektiv ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.nabor_nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 115vh;
-}
-
-.nabor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 120vh;
-}
-
-.nabor ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-.úspěchy_nadpis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-    top: 125vh;
-}
-.úspěchy{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 130vh;
-    padding-bottom: 10px;
-}
-
-.úspěchy ul{
-    background: #85c1ee;
-    padding: 10px 24px;
-    font-size: 18px;
-    border-radius: 20px;
-}
-
-footer{
-    margin-top: 130vh;
-    background-color: #2d2e33;
-    padding: 20px;
-}
-
-.footer-col{
+  }
+  
+  #firstWrap,
+  #secondWrap {
+    flex-basis: 50%;
+    width: 50%;
+    margin-left: 5%;
+  }
+  
+  #firstWrap p,
+  #secondWrap p {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 200px;
+  }
+  
+  #firstWrap .title,
+  #secondWrap .title {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+  
+  #firstWrap .secondTitle,
+  #secondWrap .secondTitle {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+  
+  #informations,
+  #offers,
+  #requirements,
+  #achievements {
+    height: 500px;
+    font-size: 15px;
+    background-color: #11101b;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  #informations,
+  #requirements {
+    margin-bottom: 30px;
+  }
+  footer {
+    margin-top: 100px;
+    background-color: #11101b;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
     text-align: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  #footer a{
     color: white;
   }
 
-  p, a{
-    color: white;
-}
-
-::selection{
-    background-color: green;
-    color: white;
-}
-
-@media screen and (max-width:1200px) {
-    .konvoje{
-        height: 300px;
+  #footer a:hover{
+    color: red;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 100px 100px 100px white;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #11101b;
+  }
+  
+  @media screen and (max-width: 576px) {
+    #flexWrap {
+        margin-top: 250px;
+        display: block;
       }
-
-      .arrow{
-        display: none;
-      }
-
-    .text{
-        position: relative;
-        top: 250px;
+  
+    #informations,
+    #offers,
+    #achievements,
+    #requirements {
+      border-radius: 0px;
     }
 
-    .nabidka_nadpis{
-        position: relative;
-        top: 280px;
+    #firstWrap p,
+    #secondWrap p {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-left: 30px;
+      padding-right: 0;
     }
+  
+    #firstWrap,
+    #secondWrap {
+      margin-left: 0%;
+      
+    }
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
 
-    .nabidka_konvoje{
-        position: relative;
-        top: 310px;
-    }
-
-    .nabidka_kolektiv{
-        position: relative;
-        top: 340px;
-    }
-
-    .nabor_nadpis{
-        position: relative;
-        top: 370px;
-    }
-
-    .nabor{
-        position: relative;
-        top: 400px;
-    }
-    .úspěchy_nadpis{
-        position: relative;
-        top: 430px;
-    }
-    .úspěchy{
-        position: relative;
-        top: 460px;
-    }
-    footer{
-        margin-top: 460px;
-    }
-}
-
-@media screen and (max-width:1000px) {
-        .text{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nabidka_nadpis{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nabidka_konvoje{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nabidka_kolektiv{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .nabor_nadpis{
-        padding-left: 10px;
-        padding-right: 10px;
+  @media screen and (min-width: 576px) {
+    @media screen and (max-width: 1200px) {
+        #flexWrap {
+            margin-top: 250px;
+            display: block;
+          }
+        
+          #informations,
+          #offers,
+          #achievements {
+            margin-bottom: 50px;
+          }
+        
+          #informations,
+          #offers,
+          #achievements,
+          #requirements {
+            width: auto;
+            border-radius: 0px;
+          }
+          #firstWrap p,
+          #secondWrap p {
+            font-size: 16px;
+            padding-top: 15px;
+            padding-left: 30px;
+            padding-right: 40px;
+          }
+        
+          #firstWrap,
+          #secondWrap {
+            margin-left: 0%;
+            padding: auto;
+          }
+          ::-webkit-scrollbar {
+            width: 0px;
+          }
+          #footerTitle {
+            font-size: 22px;
+            text-align: center;
+          }
     }
     
-    .nabor{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .úspěchy{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
