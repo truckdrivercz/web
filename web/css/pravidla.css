@@ -82,6 +82,10 @@
     place-items: center;
   }
   
+  #footer a{
+    color: white;
+  }
+
   ::-webkit-scrollbar {
     width: 20px;
   }
@@ -124,7 +128,7 @@
       width: 0px;
     }
     #footerTitle {
-      font-size: 22px;
+      font-size: 20px;
       text-align: center;
     }
   }
