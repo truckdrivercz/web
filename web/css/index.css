@@ -115,6 +115,8 @@
     #requirements {
       border-radius: 0px;
       height: auto;
+      position: relative;
+      left: 50%;
     }
 
     #firstWrap p,
@@ -156,7 +158,8 @@
           #offers,
           #achievements,
           #requirements {
-            
+            position: relative;
+            left: 50%;
             border-radius: 0px;
           }
           #firstWrap p,
