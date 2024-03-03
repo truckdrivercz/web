@@ -37,8 +37,8 @@
   #secondWrap p {
     font-size: 15px;
     padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   #firstWrap .title,
@@ -113,14 +113,14 @@
     #requirements {
       border-radius: 0px;
       height: auto;
+      padding-bottom: 10px;
     }
 
     #firstWrap p,
     #secondWrap p {
       font-size: 16px;
-      padding-top: 15px;
-      padding-left: 30px;
-      padding-right: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
   
 
@@ -150,14 +150,17 @@
           #offers,
           #achievements,
           #requirements {
+            height: auto;
             border-radius: 0px;
+            padding-bottom: 10px;
           }
+
           #firstWrap p,
           #secondWrap p {
             font-size: 16px;
             padding-top: 15px;
-            padding-left: 30px;
-            padding-right: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
           }
 
           ::-webkit-scrollbar {

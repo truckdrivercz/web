@@ -39,7 +39,8 @@ body {
 #info1 p,
 #info2 p,
 #info3 p {
-  padding-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 20px;
 }
 
@@ -93,7 +94,18 @@ a:hover{
     margin-top: 250px;
   }
   #info1, #info2, #info3 {
+    height: auto;
     border-radius: 5px;
+    padding-bottom: 10px;
+
+  }
+  #info1 p,
+  #info2 p,
+  #info3 p {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
   }
   #footerTitle {
     font-size: 22px;
@@ -117,16 +129,16 @@ a:hover{
     #info2 p,
     #info3 p {
       font-size: 16px;
-      padding-top: 15px;
-      padding-left: 30px;
-      padding-right: 40px;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     #info1,
     #info2,
     #info3 {
       height: auto;
-      margin-bottom: 50px;
+      padding-bottom: 10px;
       border-radius: 0px;
     }
     #footerTitle {
