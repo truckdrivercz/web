@@ -27,10 +27,20 @@ html {
   position: relative;
   top: 0;
   padding-bottom: 50px;
+  
 }
 
 .foto {
   border: solid black 2px;
+}
+
+.medvidek,
+.lucian,
+.eda,
+.vasa,
+.alan{
+  text-align: center;
+  width: 250px;
 }
 
 .lucian {
