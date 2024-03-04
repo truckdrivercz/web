@@ -4,13 +4,12 @@
     user-select: none;
   }
   
-  .nadpis {
+  .nadpis1 {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     top: 30px;
-    color: #11101b;
     font-size: 35px;
   }
   
@@ -42,7 +41,7 @@
   }
   
   #footer a {
-    color: white;
+    color: red;
   }
   
   ::-webkit-scrollbar {
@@ -70,7 +69,7 @@
     #footerTitle {
       font-size: 20px;
       text-align: center;
-    }  
+    }
   }
   
   @media screen and (min-width: 576px) {

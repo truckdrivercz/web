@@ -56,7 +56,7 @@ footer {
   place-items: center;
 }
 #footer a {
-  color: white;
+  color: red;
   background-color: unset;
 }
 .logo a:hover{

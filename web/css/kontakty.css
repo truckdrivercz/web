@@ -14,7 +14,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #11101b;
   position: relative;
   top: 95vh;
   font-size: 50px;
@@ -90,7 +89,7 @@ footer {
 }
 
 #footer a {
-  color: white;
+  color: red;
 }
 
 ::-webkit-scrollbar {

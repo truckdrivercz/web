@@ -22,9 +22,8 @@ toggle.addEventListener('click', function(){
         achievements.style.color = "white";
         footer.style.backgroundColor = "#11101b";
         footerTitle.style.color = "white";
-        odkaz.style = "white"
-        
-    }else{
+        odkaz.style.color = "red";
+    } else{
         body.style.background = '#11101b';
         informations.style.backgroundColor = "white";
         informations.style.color = "#11101b";
@@ -36,6 +35,6 @@ toggle.addEventListener('click', function(){
         achievements.style.color = "#11101b";
         footer.style.backgroundColor = "white";
         footerTitle.style.color = "#11101b";
-        odkaz.style.color = "black";
+        odkaz.style.color = "red";
     }
 });
