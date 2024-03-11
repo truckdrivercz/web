@@ -99,39 +99,6 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: #11101b;
 }
-
-@media screen and (max-width: 576px) {
-  #wrap {
-    display: block;
-    margin-top: 250px;
-  }
-  #rules p,
-  #rules2 p {
-    font-size: 17.5px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #rules,
-  #rules2 {
-    padding-bottom: 10px;
-  }
-
-  #rules,
-  #rules2 {
-    border-radius: 0px;
-  }
-
-
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  #footerTitle {
-    font-size: 17px;
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 576px) {
   @media screen and (max-width: 1200px) {
     #wrap {
@@ -163,5 +130,35 @@ footer {
     ::-webkit-scrollbar {
       width: 0px;
     }
+  }
+}
+@media screen and (max-width: 576px) {
+  #wrap {
+    display: block;
+    margin-top: 250px;
+  }
+  #rules p,
+  #rules2 p {
+    font-size: 17.5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #rules,
+  #rules2 {
+    padding-bottom: 10px;
+  }
+
+  #rules,
+  #rules2 {
+    border-radius: 0px;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 15px;
   }
 }

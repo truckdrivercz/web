@@ -63,28 +63,27 @@
     background-color: green;
     color: white;
   }
-  
+  @media screen and (max-width: 1200px) {
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+    #footerTitle {
+      font-size: 22px;
+    }
+  }
   @media screen and (max-width: 576px) {
     .konvoje img{
-      width: 350px;
+      text-align: center;
+      width: 300px;
+      padding-left: 20px;
+      padding-bottom: 0px;
+      padding-right: 20px;
     }
     ::-webkit-scrollbar {
       width: 0px;
     }
     #footerTitle {
-      font-size: 17px;
-      text-align: center;
+      font-size: 15px;
     }
   }
-  
-  @media screen and (min-width: 576px) {
-    @media screen and (max-width: 1200px) {
-      ::-webkit-scrollbar {
-        width: 0px;
-      }
-      #footerTitle {
-        font-size: 22px;
-        text-align: center;
-      }
-    }
-  }
+

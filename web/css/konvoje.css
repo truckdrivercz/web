@@ -87,32 +87,6 @@ a:hover{
 ::-webkit-scrollbar-thumb {
   background: #11101b;
 }
-
-@media screen and (max-width: 576px) {
-  #main {
-    display: block;
-    margin-top: 250px;
-  }
-  #info1, #info2, #info3 {
-    height: auto;
-    border-radius: 5px;
-    padding-bottom: 10px;
-
-  }
-  #info1 p,
-  #info2 p,
-  #info3 p {
-    padding-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-  #footerTitle {
-    font-size: 17px;
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 576px) {
   @media screen and (max-width: 1200px) {
     #main {
@@ -148,5 +122,28 @@ a:hover{
     ::-webkit-scrollbar {
       width: 0px;
     }
+  }
+}
+@media screen and (max-width: 576px) {
+  #main {
+    display: block;
+    margin-top: 250px;
+  }
+  #info1, #info2, #info3 {
+    height: auto;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+  }
+  #info1 p,
+  #info2 p,
+  #info3 p {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  #footerTitle {
+    font-size: 15px;
   }
 }

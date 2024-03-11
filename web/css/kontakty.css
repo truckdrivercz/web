@@ -155,15 +155,6 @@ footer {
     margin-top: 520px;
   }
 }
-@media screen and (max-width: 576px) {
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  #footerTitle {
-    font-size: 17px;
-    text-align: center;
-  }
-}
 @media screen and (min-width: 576px) {
   @media screen and (max-width: 1200px) {
     ::-webkit-scrollbar {
@@ -173,5 +164,13 @@ footer {
       font-size: 22px;
       text-align: center;
     }
+  }
+}
+@media screen and (max-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  #footerTitle {
+    font-size: 15px;
   }
 }
