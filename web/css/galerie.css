@@ -25,7 +25,8 @@
     top: 60px;
   }
   
-  .obsah {
+  .obsah{
+    display: flex;
     text-align: center;
   }
   
@@ -64,6 +65,9 @@
   }
   
   @media screen and (max-width: 576px) {
+    .konvoje img{
+      width: 350px;
+    }
     ::-webkit-scrollbar {
       width: 0px;
     }
