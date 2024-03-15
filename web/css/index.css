@@ -98,46 +98,44 @@
   ::-webkit-scrollbar-thumb {
     background: #11101b;
   }
-  @media screen and (min-width: 576px) {
-    @media screen and (max-width: 1200px) {
-        #flexWrap {
-            margin-top: 250px;
-            display: block;
-          }
-        
-          #informations,
-          #offers,
-          #achievements {
-            margin-bottom: 50px;
-          }
-        
-          #informations,
-          #offers,
-          #achievements,
-          #requirements {
-            height: auto;
-            border-radius: 0px;
-            padding-bottom: 10px;
-          }
-
-          #firstWrap p,
-          #secondWrap p {
-            font-size: 16px;
-            padding-top: 15px;
-            padding-left: 20px;
-            padding-right: 20px;
-          }
-
-          ::-webkit-scrollbar {
-            width: 0px;
-          }
-          #footerTitle {
-            font-size: 22px;
-            text-align: center;
-          }
-    }
+  @media screen and (max-width: 1200px) {
+    #flexWrap {
+        margin-top: 250px;
+        display: block;
+      }
     
+      #informations,
+      #offers,
+      #achievements {
+        margin-bottom: 50px;
+      }
+    
+      #informations,
+      #offers,
+      #achievements,
+      #requirements {
+        height: auto;
+        border-radius: 0px;
+        padding-bottom: 10px;
+      }
+
+      #firstWrap p,
+      #secondWrap p {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+      #footerTitle {
+        font-size: 22px;
+        text-align: center;
+      }
 }
+
   @media screen and (max-width: 576px) {
     #flexWrap {
         display: block;
@@ -150,6 +148,7 @@
     #offers,
     #achievements,
     #requirements {
+      margin-top: 50px;
       border-radius: 0px;
       height: auto;
       padding-bottom: 10px;

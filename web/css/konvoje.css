@@ -18,7 +18,7 @@ body {
 #info1,
 #info2,
 #info3 {
-  height: 550px;
+  height: 600px;
   flex-basis: 30%;
   margin: 50px;
   font-size: 15px;
@@ -39,6 +39,7 @@ body {
 #info1 p,
 #info2 p,
 #info3 p {
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
@@ -87,41 +88,39 @@ a:hover{
 ::-webkit-scrollbar-thumb {
   background: #11101b;
 }
-@media screen and (min-width: 576px) {
-  @media screen and (max-width: 1200px) {
-    #main {
-      display: block;
-      margin-top: 250px;
-    }
-    #info1,
-    #info2,
-    #info3 {
-      border-radius: 0px;
-      
-    }
-    #info1 p,
-    #info2 p,
-    #info3 p {
-      font-size: 16px;
-      padding-top: 10px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+@media screen and (max-width: 1200px) {
+  #main {
+    display: block;
+    margin-top: 250px;
+  }
+  #info1,
+  #info2,
+  #info3 {
+    border-radius: 0px;
+    
+  }
+  #info1 p,
+  #info2 p,
+  #info3 p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    #info1,
-    #info2,
-    #info3 {
-      height: auto;
-      padding-bottom: 10px;
-      border-radius: 0px;
-    }
-    #footerTitle {
-      font-size: 22px;
-      text-align: center;
-    }
-    ::-webkit-scrollbar {
-      width: 0px;
-    }
+  #info1,
+  #info2,
+  #info3 {
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
   }
 }
 @media screen and (max-width: 576px) {

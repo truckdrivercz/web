@@ -99,37 +99,35 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: #11101b;
 }
-@media screen and (min-width: 576px) {
-  @media screen and (max-width: 1200px) {
-    #wrap {
-      display: block;
-      margin-top: 250px;
-    }
-    #rules,
-    #rules2 {
-      border-radius: 0px;
-      padding-bottom: 10px;
-    }
-    #rules p,
-    #rules2 p {
-      font-size: 16px;
-      padding-top: 15px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+@media screen and (max-width: 1200px) {
+  #wrap {
+    display: block;
+    margin-top: 250px;
+  }
+  #rules,
+  #rules2 {
+    border-radius: 0px;
+    padding-bottom: 10px;
+  }
+  #rules p,
+  #rules2 p {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    #rules,
-    #rules2 {
-      margin-bottom: 10px;
-      border-radius: 0px;
-    }
-    #footerTitle {
-      font-size: 22px;
-      text-align: center;
-    }
-    ::-webkit-scrollbar {
-      width: 0px;
-    }
+  #rules,
+  #rules2 {
+    margin-bottom: 10px;
+    border-radius: 0px;
+  }
+  #footerTitle {
+    font-size: 22px;
+    text-align: center;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
   }
 }
 @media screen and (max-width: 576px) {
