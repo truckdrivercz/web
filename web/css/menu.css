@@ -110,6 +110,9 @@ color: #fefefe;
 }
 
 @media screen and (max-width:1520px) {
+    header{
+        width: auto;
+    }
     .tym{
         display: grid;
     }

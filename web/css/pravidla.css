@@ -126,9 +126,6 @@ footer {
     font-size: 22px;
     text-align: center;
   }
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
 }
 @media screen and (max-width: 576px) {
   #wrap {
@@ -150,11 +147,6 @@ footer {
   #rules,
   #rules2 {
     border-radius: 0px;
-  }
-
-
-  ::-webkit-scrollbar {
-    width: 0px;
   }
   #footerTitle {
     font-size: 15px;

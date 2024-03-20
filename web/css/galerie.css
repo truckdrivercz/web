@@ -1,42 +1,50 @@
-* {
+*{
   margin: 0;
   padding: 0;
   user-select: none;
 }
+body{
+  width: 100%;
+  height: 100%;
+}
 
-.nadpis1 {
+#nadpis{
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   top: 30px;
-  font-size: 35px;
+  font-size: 50px;
 }
 
-.konvoje img {
-  width: 300px;
-
+.konvoje img{
+  position: relative;
+  top: 0;
+  max-width: 350px;
 }
 
-.konvoje {
+.konvoje{
   position: relative;
   top: 60px;
 }
 
-.obsah {
+.obsah{
   text-align: center;
 }
 
+::selection{
+  background-color: green;
+  color: white;
+}
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 100px;
   background-color: #11101b;
   color: white;
-  padding-top: 30px;
   width: 100%;
   height: 100px;
-  text-align: center;
-  justify-content: center;
-  place-items: center;
 }
 
 #footer a {
@@ -63,26 +71,20 @@ footer {
 
 @media screen and (max-width: 576px) {
   .konvoje img{
-    text-align: center;
     width: 250px;
   }
-  ::-webkit-scrollbar {
-    width: 0px;
+  footer{
+    width: auto;
   }
   #footerTitle {
     font-size: 15px;
-    text-align: center;
   }
 }
 
 @media screen and (min-width: 576px) {
   @media screen and (max-width: 1200px) {
-    ::-webkit-scrollbar {
-      width: 0px;
-    }
     #footerTitle {
       font-size: 22px;
-      text-align: center;
     }
   }
 }
