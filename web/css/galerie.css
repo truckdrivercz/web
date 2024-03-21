@@ -29,6 +29,7 @@ body{
 }
 
 .obsah{
+  z-index: 99999;
   text-align: center;
 }
 
@@ -78,9 +79,6 @@ footer {
 @media screen and (max-width: 576px) {
   .konvoje img{
     width: 250px;
-  }
-  footer{
-    width: auto;
   }
   #footerTitle {
     font-size: 15px;
