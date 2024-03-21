@@ -20,7 +20,8 @@ body{
 .konvoje img{
   position: relative;
   top: 0;
-  max-width: 350px;
+  width: 350px;
+  text-align: center;
 }
 
 .konvoje{
@@ -29,7 +30,6 @@ body{
 }
 
 .obsah{
-  z-index: 99999;
   text-align: center;
 }
 
