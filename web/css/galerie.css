@@ -69,6 +69,12 @@ footer {
   color: white;
 }
 
+@media screen and (max-width: 1200px) {
+  #footerTitle {
+    font-size: 22px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .konvoje img{
     width: 250px;
@@ -78,13 +84,5 @@ footer {
   }
   #footerTitle {
     font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  @media screen and (max-width: 1200px) {
-    #footerTitle {
-      font-size: 22px;
-    }
   }
 }
