@@ -119,6 +119,9 @@ a:hover{
     font-size: 22px;
     text-align: center;
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 }
 @media screen and (max-width: 576px) {
   #main {

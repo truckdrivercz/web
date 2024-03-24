@@ -37,7 +37,7 @@ header{
     top: 0;
 }
 
- .tym {
+ .cara {
     display: inline-flex;
     padding: 0;
     
@@ -49,7 +49,7 @@ header{
     border-top: 0;
     border-bottom: 0;
 }
-header .tym:hover li{
+header .cara:hover li{
     border-width: 0;
     transition: 0s;
 }
@@ -113,7 +113,7 @@ color: #fefefe;
     header{
         width: auto;
     }
-    .tym{
+    .cara{
         display: grid;
     }
     .odkaz{
@@ -150,7 +150,7 @@ color: #fefefe;
     }
 
   .nav-bar.active{
-    height: 750px;
+    height: 800px;
   }
 
     .nav-bar ul{

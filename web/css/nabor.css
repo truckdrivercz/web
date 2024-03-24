@@ -55,16 +55,15 @@
     padding-bottom: 5px;
   }
   
-  #informations,
-  #achievements {
-    height: 300px;
+  #offers,
+  #requirements{
+    height: 500px;
     font-size: 15px;
     background-color: #11101b;
     color: white;
     border-radius: 30px;
   }
   
-  #informations,
   #requirements {
     margin-bottom: 30px;
   }
@@ -102,13 +101,12 @@
         display: block;
       }
     
-      #informations,
-      #achievements {
+      #offers{
         margin-bottom: 50px;
       }
     
-      #informations,
-      #achievements {
+      #offers,
+      #requirements {
         height: auto;
         border-radius: 0px;
         padding-bottom: 10px;
@@ -138,8 +136,8 @@
         width: 100%;
       }
   
-    #informations,
-    #achievements {
+    #offers,
+    #requirements {
       margin-top: 50px;
       border-radius: 0px;
       height: auto;

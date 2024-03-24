@@ -71,6 +71,9 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
   #footerTitle {
     font-size: 22px;
   }

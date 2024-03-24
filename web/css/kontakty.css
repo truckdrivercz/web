@@ -154,6 +154,9 @@ footer {
   footer {
     margin-top: 520px;
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #footerTitle {
